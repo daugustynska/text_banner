@@ -1,0 +1,37 @@
+name: text_banner
+description: Simple in use app to display user-defined text message.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <4.0.0'
+dependencies:
+  cupertino_icons: ^1.0.5
+  flutter:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  mockito: ^5.4.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.12.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: 'lib\assets\images\app_icon.png'
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Courgette
+      fonts:
+        - asset: lib\assets\fonts\Courgette-Regular.ttf
+    - family: RobotoSlab
+      fonts:
+        - asset: lib\assets\fonts\RobotoSlab-Regular.ttf
+    - family: Editundo
+      fonts:
+        - asset: lib\assets\fonts\Edundot.ttf
